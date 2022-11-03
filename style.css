@@ -17,7 +17,7 @@
 }
 canvas
 {
-    border: 5px solid white;
+    border: 5px dashed #ff69d2;
     border-radius: 20px;
     box-shadow: 5px 5px grey;
 }
