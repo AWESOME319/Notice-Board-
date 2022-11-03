@@ -1,0 +1,23 @@
+.heading
+{
+    color: white;
+    background-color: #3a0b4d;
+    margin: 0px;
+    font-size: 15px;
+    font-family:cursive;
+}
+.footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: deepskyblue;
+    line-height: 3;
+    text-align: center;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px grey;
+}
