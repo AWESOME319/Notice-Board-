@@ -8,12 +8,13 @@ function setup(){
     canvas.position(560,70);
     poseNet= ml5.poseNet(video,modelLoaded);
     poseNet.on('pose',gotPoses);
-    textSize(difference)
+   
 }
 function draw(){
     background('#2a7ce8');
     fill('#050505');
-    text('This month we have a food drive which starts on November 14.',20,100);
+    textSize(difference)
+    text('This month many things will be happening. We have a food drive which starts on November 14.',20,100);
  }
 function modelLoaded(){
     console.log('PoseNet is initialized');
